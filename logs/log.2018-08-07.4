@@ -1,0 +1,34 @@
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 << "[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.conn.DefaultClientConnection 2018-08-07 10:11:17 Receiving response: HTTP/1.1 200 OK  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << HTTP/1.1 200 OK  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << Server: nginx/1.10.2  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << Date: Tue, 07 Aug 2018 02:11:15 GMT  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << Content-Type: text/json;charset=UTF-8  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << Transfer-Encoding: chunked  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << Connection: keep-alive  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << Set-Cookie: token=DJCRM-08e3c5ee-f4d4-46a7-844f-bd88b1e32fc3; path=/; HttpOnly; Max-Age=1800; Expires=Tue, 07-Aug-2018 02:41:15 GMT  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.headers 2018-08-07 10:11:17 << Content-Disposition: inline;filename=f.txt  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.client.protocol.ResponseProcessCookies 2018-08-07 10:11:17 Cookie accepted: "[version: 0][name: token][value: DJCRM-08e3c5ee-f4d4-46a7-844f-bd88b1e32fc3][domain: 192.168.10.201][path: /][expiry: Tue Aug 07 10:41:17 CST 2018]".   
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.client.DefaultHttpClient 2018-08-07 10:11:17 Connection can be kept alive indefinitely  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 << "3e[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 << "{"msg":"","total":0.0,"code":10000.0,"data":[],"success":true}"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 << "[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 << "0[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 << "[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.conn.PoolingClientConnectionManager 2018-08-07 10:11:17 Connection [id: 23][route: {}->http://192.168.10.201] can be kept alive indefinitely  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.conn.PoolingClientConnectionManager 2018-08-07 10:11:17 Connection released: [id: 23][route: {}->http://192.168.10.201][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.conn.PoolingClientConnectionManager 2018-08-07 10:11:17 Connection request: [route: {}->http://192.168.10.201][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.conn.PoolingClientConnectionManager 2018-08-07 10:11:17 Connection leased: [id: 24][route: {}->http://192.168.10.201][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.conn.DefaultClientConnectionOperator 2018-08-07 10:11:17 Connecting to 192.168.10.201:80  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.client.protocol.RequestAddCookies 2018-08-07 10:11:17 CookieSpec selected: best-match  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.client.protocol.RequestAddCookies 2018-08-07 10:11:17 Cookie [version: 0][name: token][value: DJCRM-08e3c5ee-f4d4-46a7-844f-bd88b1e32fc3][domain: 192.168.10.201][path: /][expiry: Tue Aug 07 10:41:17 CST 2018] match [192.168.10.201:80/djcrm/product/getGroupOpenCycle.do]  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.client.protocol.RequestAuthCache 2018-08-07 10:11:17 Auth cache not set in the context  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.client.protocol.RequestTargetAuthentication 2018-08-07 10:11:17 Target auth state: UNCHALLENGED  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.client.protocol.RequestProxyAuthentication 2018-08-07 10:11:17 Proxy auth state: UNCHALLENGED  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.client.DefaultHttpClient 2018-08-07 10:11:17 Attempt 1 to execute request  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.impl.conn.DefaultClientConnection 2018-08-07 10:11:17 Sending request: POST /djcrm/product/getGroupOpenCycle.do HTTP/1.1  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 >> "POST /djcrm/product/getGroupOpenCycle.do HTTP/1.1[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 >> "Content-Length: 35[\r][\n]"  
+[DEBUG] TestNGInvoker-apiTest() org.apache.http.wire 2018-08-07 10:11:17 >> "Host: 192.168.10.201[\r][\n]"  
